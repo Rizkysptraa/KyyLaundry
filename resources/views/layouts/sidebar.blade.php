@@ -29,7 +29,7 @@
     <!--sidebar kanan-->
     <div class="overlay1"></div>
     <aside class="sidebar1">
-        <img class="sidebar-avatar" src="{{asset('img/profil.jpg')}}" />
+        <img class="sidebar-avatar" src="{{asset('img/user.png')}}" />
         <div class="sidebar-username">Hi, {{ auth()->user()->name }}</div>
         <div class="sidebar-role">{{ auth()->user()->getRoleNames()}}</div>
         <nav class="sidebar1-menu">

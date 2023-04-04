@@ -103,7 +103,7 @@
 
 <div class="flex flex-row flex-wrap flex-grow mt-2">
 
-    <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+    <div class="w-full md:w-1/2 xl:w-1/2 p-3">
         <!--Template Card-->
         <div class="bg-white border rounded shadow">
             <div class="border-b p-3">
@@ -141,44 +141,7 @@
         <!--/Template Card-->
     </div>
 
-    <div class="w-full md:w-1/2 xl:w-1/3 p-3">
-        <!--Graph Card-->
-        <div class="bg-white border rounded shadow">
-            <div class="border-b p-3">
-                <h5 class="font-bold uppercase text-gray-600">Cucian</h5>
-            </div>
-            <div class="block w-full overflow-x-auto">
-                <table class="items-center bg-transparent w-full border-collapse ">
-                    <thead>
-                        <tr>
-                        <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
-                                        Nama
-                                    </th>
-                        <th class="px-6 bg-blueGray-50 text-blueGray-500 align-middle border border-solid border-blueGray-100 py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left">
-                                        Jenis
-                                    </th>
-                        </tr>
-                    </thead>
-            
-                    <tbody>
-                        @foreach ($cucian as $c)
-                            <tr>
-                                <th class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 text-left text-blueGray-700 ">
-                                    {{ $c->nama }}
-                                </th>
-                                <td class="border-t-0 px-6 align-middle border-l-0 border-r-0 text-xs whitespace-nowrap p-4 ">
-                                    {{ $c->jenis }}
-                                </td>
-                            </tr>
-                        @endforeach
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <!--/Graph Card-->
-    </div>
-
-    <div class="w-full md:w-1/2 xl:w-1/3 p-3">
+    <div class="w-full md:w-1/2 xl:w-1/2 p-3">
         <!--Graph Card-->
         <div class="bg-white border rounded shadow">
             <div class="border-b p-3">
