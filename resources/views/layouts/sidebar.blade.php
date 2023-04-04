@@ -1,6 +1,6 @@
 <section class="nav-color">
 <button type="button" class="burger1" onclick="toggleSidebar1()">
-    <img class="burger-avatar" src="{{asset('img/profil.jpg')}}" />
+    <img class="burger-avatar" src="{{asset('img/user.png')}}" />
     <span class="burger1-icon"></span>
 </button>
 <button type="button" class="burger2" onclick="toggleSidebar2()">
